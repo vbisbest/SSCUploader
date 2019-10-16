@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SSCUploader": {
+      "commandName": "Project",
+      "commandLineArgs": "-?"
+    }
+  }
+}

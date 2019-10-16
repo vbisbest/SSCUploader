@@ -20,5 +20,5 @@ Simply execute the SSCUploader from the command line with the appropriate parame
 Example: SSCUploader.exe -authToken MYAUTHTOKEN -fpr C:\webinspect\scans\Scan.fpr -applicationVersionID 9 -sscUrl http://myhost:8180/ssc/
 
 
-
+![alt text](example.png)
 

@@ -5,6 +5,7 @@ A tool for uploading FPR's to SSC.
 SCA comes with an FPR utility. However, WebInspect users also want to upload their FPR's to their SSC instance.
 
 # Features
+- Upload SCA and WebInspect FPR files to SSC
 - Cross plaform - It will run on Windows, Linux, Mac and Docker Windows/Linux containers.
 - Customizable - Download the source code and customize it for your own CI/CD process.  
 - The entire SSC API is implemented for custom actions or behaviors. 

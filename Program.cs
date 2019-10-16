@@ -4,8 +4,6 @@ using IO.Swagger.Client;
 using System.IO;
 using System.Collections.Generic;
 
-//-authToken ZmM1YjI2Y2UtMjc0Yy00N2EzLThiZWMtZTRlMmZhYTVhYTFj -fpr C:\webinspect\scans\Scan.fpr -applicationVersionID 9 -sscUrl http://localhost:8180/ssc/ 
-
 namespace SSCUploader
 {
     class Program
@@ -113,10 +111,10 @@ namespace SSCUploader
             Console.WriteLine("SSCUploader help");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\r\n-fpr: Fully qualified path to the FPR file");
-            Console.WriteLine("-authToken: SSC authorization token");
-            Console.WriteLine("-applicationVersionID: SSC application Id");
+            Console.WriteLine("-sscToken: SSC authorization token");
+            Console.WriteLine("-appVersionID: SSC application Id");
             Console.WriteLine("-sscUrl: SSC url. Example: http://myhost/ssc");
-            Console.WriteLine("\r\nExample: SSCUploader.exe -authToken MYAUTHTOKEN -fpr C:\\webinspect\\scans\\Scan.fpr -applicationVersionID 9 -sscUrl http://myhost:8180/ssc/ ");
+            Console.WriteLine("\r\nExample: SSCUploader.exe -sscToken MYAUTHTOKEN -fpr C:\\webinspect\\scans\\Scan.fpr -appVersionID 9 -sscUrl http://myhost:8180/ssc/ ");
             Console.ResetColor();
             Environment.Exit(0);
         }

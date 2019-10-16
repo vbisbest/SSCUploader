@@ -2,7 +2,7 @@
   "profiles": {
     "SSCUploader": {
       "commandName": "Project",
-      "commandLineArgs": "-?"
+      "commandLineArgs": "-sscToken ZmM1YjI2Y2UtMjc0Yy00N2EzLThiZWMtZTRlMmZhYTVhYTFj -fpr C:\\webinspect\\scans\\Scan.fpr -appVersionID 9 -sscUrl http://localhost:8180/ssc/"
     }
   }
 }
